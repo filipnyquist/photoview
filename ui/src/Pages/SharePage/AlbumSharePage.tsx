@@ -99,7 +99,7 @@ const AlbumSharePage = ({ albumID, token, password }: AlbumSharePageProps) => {
       id: albumID,
       token,
       password,
-      limit: 200,
+      limit: 20000,
       offset: 0,
       mediaOrderBy: orderParams.orderBy,
       mediaOrderDirection: orderParams.orderDirection,
